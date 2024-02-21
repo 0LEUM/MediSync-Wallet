@@ -1,0 +1,41 @@
+ /* TEAM */
+  
+ .members {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .member:nth-child(2),
+  .member:nth-child(4) {
+    margin-top: 5rem;
+  }
+  
+  .member_img {
+    margin-bottom: 1rem;
+  }
+  
+  .member_content h1 {
+    margin-bottom: 0.25rem;
+  }
+  
+  .member_content p {
+    opacity: 0.4;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 768px) {
+  
+    /* TEAM */
+  
+    .members {
+      flex-direction: column;
+      text-align: center;
+    }
+    .member {
+      margin: 0 !important;
+    }
+    .member_img img {
+      max-width: 300px;
+    }
+  }
+  

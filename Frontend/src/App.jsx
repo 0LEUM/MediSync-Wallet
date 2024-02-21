@@ -1,13 +1,15 @@
 // import { useState } from 'react'
 import './App.css'
-import Footer from './components/Footer/Footer'
+// import LandPageLayout from './components/Layout/LandPageLayout'
+import Router from './Router/Router'
+
 
 function App() {
-  // const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      <Footer/>
+      <Router/>
+      {/* <LandPageLayout/> */}
     </>
   )
 }

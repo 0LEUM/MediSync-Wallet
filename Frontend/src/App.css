@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+/* VARIABLES */
+:root {
+  --primary-color: #c04ae2;
+  --secondary-color: #111111;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Overpass", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* RESET DEFAULT STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--secondary-font);
+  margin-bottom: 1rem;
+}
+
+/* UTILITY CLASSES */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.section-subheading {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  max-width: 600px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.section-heading.left {
+  margin-right: auto;
+}
+
+.section-heading.right {
+  margin-left: auto;
+}
+
+/* GLOBAL STYLES */
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  color: var(--secondary-color);
+}
+
+section {
+  position: relative;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  section {
+    padding-top: 2rem !important;
+    padding-bottom: 3rem !important;
+  }
+  .section-heading {
+    font-size: 2rem;
+  }
+}
+
+
