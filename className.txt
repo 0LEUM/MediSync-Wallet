@@ -1,0 +1,85 @@
+Header ->
+
+header 
+container-header
+flex-row-header
+header_logo >> img
+header-nav 
+header >> right-header
+flex-center-header 
+button-header
+button-header:hover
+menu-btn-header
+
+Footer ->
+
+footer
+container-footer
+footer_content
+footer_details
+footer_logo
+footer_text
+footer_newletter
+footer_newletter  >> input
+footer_newletter >> icon
+footer_menu
+footer_menu-title
+footer_menu-list
+footer_menu-list >> a:hover
+footer_bottom
+footer_bottom-icons
+facebook
+twitter
+instagram
+linkedin
+
+About ->
+
+container-about
+flex-center-about
+flex-column-about
+section-subheading-about
+section-heading-about
+text-center-about
+features-about
+feature-about 
+feature_icon
+icon1
+icon2
+icon3 
+features_title
+feature_text
+about_details
+about_details-content
+about_details-content >> h1
+about_details-content >> p
+about_details-content >> btn
+button-about >> btn-primary 
+button-about >> btn-primary:hover
+about_details-img
+
+Hero ->
+
+#hero
+container-hero
+flex-row-hero
+hero_content
+hero_content >> h1
+hero_content >> p
+hero_img
+button-hero >> btn-primary
+button-hero >> btn-primary:hover
+
+Services ->
+
+#services >> section-subheading
+#services >> section-heading 
+container-services
+services 
+service
+service_icon >> img
+services_title 
+service_text
+service >> services-arrow-icon
+service:hover
+services-arrow-icon

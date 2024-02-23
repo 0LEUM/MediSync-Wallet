@@ -12,7 +12,6 @@ import Footer from '../Footer/Footer'
 const LandPageLayout = () => {
   return (
     <>
-    <Header/>
     <Hero/>
     <About/>
     <Services/>
@@ -20,7 +19,6 @@ const LandPageLayout = () => {
     <Team/>
     <Testimonial/>
     <ContactUs/>
-    <Footer/>
     </>
   )
 }

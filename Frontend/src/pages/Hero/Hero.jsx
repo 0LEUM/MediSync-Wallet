@@ -30,9 +30,7 @@ const Hero = () => {
       
   return (
     <>
-    {/* HERO */}
-
-    <section id="hero" className="container flex-row">
+    <section id="hero" className="container-hero flex-row-hero">
         <div className="hero_content" data-aos="fade-right" data-aos-offset="500" data-aos-duration="600">
           <h1 className="title">Welcome to Our Company!</h1>
           <p className="text">
@@ -40,14 +38,12 @@ const Hero = () => {
             et deserunt odit laboriosam ipsa soluta perspiciatis, eos corrupti
             neque?
           </p>
-          <a href="" className="btn btn-primary">Get Started</a>
+          <a href="" className="button-hero btn btn-primary">Get Started</a>
         </div>
         <div className="hero_img" data-aos="fade-left" data-aos-offset="500" data-aos-duration="600">
           <img src={hero} alt="" />
         </div>
       </section>
-
-      {/* HERO */}
     </>
   )
 }

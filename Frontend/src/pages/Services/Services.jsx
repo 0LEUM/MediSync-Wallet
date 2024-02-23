@@ -10,6 +10,8 @@ import headphone from '../../assets/headphones.png'
 import placeholder from '../../assets/placeholder.png'
 import upload from '../../assets/upload.png'
 
+import { FaArrowRight } from "react-icons/fa";
+
 const Services = () => {
 
   useEffect(() => {
@@ -35,9 +37,8 @@ const Services = () => {
   }, []);
   return (
     <>
-    {/* SERVICES */}
     <section id="services" style={{background: 'url(assets/img/services-bg.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', backgroundSize: '100% 80%',}}>
-      <div className="container">
+      <div className="container-services">
         <h5 className="section-subheading" data-aos="zoom-in-up">What we do</h5>
         <h2 className="section-heading right" data-aos="zoom-in-up">
           Services to solve all kind of business problems
@@ -54,8 +55,8 @@ const Services = () => {
               sapiente cumque aliquam? Libero, eum quisquam labore esse sit
               rerum nostrum.
             </p>
-            <div className="arrow-icon">
-              <i className="fas fa-arrow-right"></i>
+            <div className="services-arrow-icon">
+              <FaArrowRight />
             </div>
           </div>
           <div className="service" data-aos="fade-up">
@@ -69,8 +70,8 @@ const Services = () => {
               sapiente cumque aliquam? Libero, eum quisquam labore esse sit
               rerum nostrum.
             </p>
-            <div className="arrow-icon">
-              <i className="fas fa-arrow-right"></i>
+            <div className="services-arrow-icon">
+              <FaArrowRight />
             </div>
           </div>
           <div className="service" data-aos="fade-up">
@@ -84,8 +85,8 @@ const Services = () => {
               sapiente cumque aliquam? Libero, eum quisquam labore esse sit
               rerum nostrum.
             </p>
-            <div className="arrow-icon">
-              <i className="fas fa-arrow-right"></i>
+            <div className="services-arrow-icon">
+              <FaArrowRight />
             </div>
           </div>
           <div className="service" data-aos="fade-up">
@@ -99,8 +100,8 @@ const Services = () => {
               sapiente cumque aliquam? Libero, eum quisquam labore esse sit
               rerum nostrum.
             </p>
-            <div className="arrow-icon">
-              <i className="fas fa-arrow-right"></i>
+            <div className="services-arrow-icon">
+              <FaArrowRight />
             </div>
           </div>
           <div className="service" data-aos="fade-up">
@@ -114,8 +115,8 @@ const Services = () => {
               sapiente cumque aliquam? Libero, eum quisquam labore esse sit
               rerum nostrum.
             </p>
-            <div className="arrow-icon">
-              <i className="fas fa-arrow-right"></i>
+            <div className="services-arrow-icon">
+              <FaArrowRight />
             </div>
           </div>
           <div className="service" data-aos="fade-up">
@@ -129,15 +130,13 @@ const Services = () => {
               sapiente cumque aliquam? Libero, eum quisquam labore esse sit
               rerum nostrum.
             </p>
-            <div className="arrow-icon">
-              <i className="fas fa-arrow-right"></i>
+            <div className="services-arrow-icon">
+              <FaArrowRight />  
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    {/* SERVICES */}
     </>
   )
 }

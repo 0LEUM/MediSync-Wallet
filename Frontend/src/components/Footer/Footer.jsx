@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './footer.css'
 import logo from '../../assets/logo.png'
+import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
 
@@ -28,10 +29,41 @@ const Footer = () => {
     });
   }, []);
 
+  const footerItems = [
+    {
+      name: "Home",
+      uri: "#hero",
+    },
+    {
+      name: "About",
+      uri: "#about",
+    },
+    {
+      name: "Services",
+      uri: "#services",
+    },
+    {
+      name: "Projects",
+      uri: "#projects",
+    },
+    {
+      name: "Team",
+      uri: "#team",
+    },
+    {
+      name: "Testimonials",
+      uri: "#testimonial",
+    },
+    {
+      name: "Contact",
+      uri: "#contact",
+    }
+  ]
+
   return (
     <>
     <footer>
-      <div className="container" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="200">
+      <div className="container-footer" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="200">
         <div className="footer_content">
           <div className="footer_details">
             <div className="footer_logo">
@@ -44,7 +76,7 @@ const Footer = () => {
               <form action="#" className="footer_newsletter-form">
                 <input type="email" placeholder="Submit email" required />
                 <div className="icon">
-                  {/* <FontAwesomeIcon icon="fa-solid fa-envelope" /> */}
+                  <FaEnvelope />
                 </div>
               </form>
             </div>
@@ -52,18 +84,17 @@ const Footer = () => {
           <div className="footer_menu">
             <h3 className="footer_menu-title">Quick Links</h3>
             <ul className="footer_menu-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+              {footerItems.map((item) =>
+                  <li key={item.name}>
+                    <a href={item.uri}>{item.name}</a>
+                  </li>
+              )}
+          </ul>
           </div>
           <div className="footer_menu">
             <h3 className="footer_menu-title">Services</h3>
             <ul className="footer_menu-list">
-              <li><a href="#">development</a></li>
+              <li><a href="#">Development</a></li>
               <li><a href="#">Maintainence</a></li>
               <li><a href="#">Design</a></li>
             </ul>
@@ -81,20 +112,20 @@ const Footer = () => {
         <div className="footer_bottom">
           <div className="footer_bottom-icons">
             <p>Follow us</p>
-            <a href="#" className="facebook">
-              <i className="fab fa-facebook-f"></i>
+            <a href="#">
+              <FaFacebook  className="facebook" />
             </a>
-            <a href="#" className="twitter">
-              <i className="fab fa-twitter"></i>
+            <a href="#">
+              <FaTwitter  className="twitter"/>
             </a>
-            <a href="#" className="instagram">
-              <i className="fab fa-instagram"></i>
+            <a href="#">
+              <FaInstagram className="instagram"/>
             </a>
-            <a href="#" className="linkedin">
-              <i className="fab fa-linkedin"></i>
+            <a href="#">
+              <FaLinkedin className="linkedin"/>
             </a>
           </div>
-          <p>&copy; 2023 Rou. All rights reserved.</p>
+          <p>&copy; 2021-24 All rights reserved.</p>
         </div>
       </div>
     </footer>

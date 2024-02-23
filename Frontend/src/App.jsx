@@ -1,15 +1,13 @@
 // import { useState } from 'react'
 import './App.css'
-// import LandPageLayout from './components/Layout/LandPageLayout'
-import Router from './Router/Router'
+import Layout from './components/Layout/Layout'
 
 
 function App() {
   
   return (
     <>
-      <Router/>
-      {/* <LandPageLayout/> */}
+      <Layout/>
     </>
   )
 }

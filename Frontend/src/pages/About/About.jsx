@@ -31,16 +31,15 @@ const About = () => {
   }, []);
   return (
     <>
-    {/* ABOUT */}
-    <section id="about" className="container flex-center flex-column">
-      <h5 className="section-subheading" data-aos="zoom-in-up">
+    <section id="about" className="container-about flex-center-about flex-column-about">
+      <h5 className="section-subheading-about" data-aos="zoom-in-up">
         build trust first
       </h5>
-      <h2 className="section-heading text-center" data-aos="zoom-in-up">
+      <h2 className="section-heading-about text-center-about" data-aos="zoom-in-up">
         Control your business with a single tap
       </h2>
-      <div className="features text-center">
-        <div className="feature" style={{borderColor: '#fe6786'}} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+      <div className="features-about text-center-about">
+        <div className="feature-about" style={{borderColor: '#fe6786'}} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <div className="feature_icon">
             <FaAnchor className='icon1' />
           </div>
@@ -54,7 +53,7 @@ const About = () => {
             adipisci ab ipsa aliquam enim laudantium, qui molestiae.
           </p>
         </div>
-        <div className="feature" style={{borderColor: '#5cd8a5'}} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <div className="feature-about" style={{borderColor: '#5cd8a5'}} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <div className="feature_icon">
             <LuGanttChartSquare className='icon2' />
           </div>
@@ -68,7 +67,7 @@ const About = () => {
             adipisci ab ipsa aliquam enim laudantium, qui molestiae.
           </p>
         </div>
-        <div className="feature" style={{borderColor: '#fea95b'}} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <div className="feature-about" style={{borderColor: '#fea95b'}} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <div className="feature_icon">
             <FaChartLine className='icon3'/>
           </div>
@@ -83,7 +82,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="about_details flex-center">
+      <div className="about_details flex-center-about">
         <div className="about_details-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <h1>Most innovative creative team</h1>
           <p>
@@ -98,15 +97,13 @@ const About = () => {
             non veniam perspiciatis minus commodi consectetur cum quas autem
             facilis neque? Enim neque porro praesentium.
           </p>
-          <a href="#" className="btn btn-primary"> Get Started </a>
+          <a href="#" className="button-about btn btn-primary"> Get Started </a>
         </div>
         <div className="about_details-img" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <img src={about} alt="" />
         </div>
       </div>
     </section>
-
-    {/* ABOUT */}
     </>
   )
 }
