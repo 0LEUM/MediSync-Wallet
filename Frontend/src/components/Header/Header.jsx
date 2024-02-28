@@ -73,9 +73,9 @@ const Header = () => {
 
           </nav>
           <div className="right-header flex-center-header">
-            <Link to="">
+            <Link to="/login">
               <button className="button-header btn btn-secondary">
-                Get a Quote
+                Login 
               </button>
             </Link>
             <div className="menu-btn-header">

@@ -8,6 +8,7 @@ import Services from '../pages/Services/Services'
 import Team from '../pages/Team/Team'
 import Projects from '../pages/Projects/Projects'
 import Testimonial from '../pages/Testimonial/Testimonial'
+import Login from '../pages/LoginPage/Login'
 
 
 const Router = () => {
@@ -22,6 +23,7 @@ const Router = () => {
         <Route path='/team' element={<Team/>} />
         <Route path='/testimonial' element={<Testimonial/>} />
         <Route path='/contactUs' element={<ContactUs/>} />
+        <Route path='/login' element={<Login/>} />
       </Route>
     </Routes>
   )
