@@ -35,11 +35,11 @@ const Team = () => {
   <>
   {/* TEAM */}
 
-  <section id="team" className="container">
-    <h5 className="section-subheading text-center" data-aos="zoom-in-up">
+  <section id="team" className="section-team container-team">
+    <h5 className="section-subheading-team text-center-team" data-aos="zoom-in-up">
       Meet our team
     </h5>
-    <h2 className="section-heading text-center right left" data-aos="zoom-in-up">
+    <h2 className="section-heading-team text-center-team right left" data-aos="zoom-in-up">
       Awsome people with great business skills
     </h2>
     <div className="members">

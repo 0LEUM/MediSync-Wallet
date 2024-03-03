@@ -33,14 +33,12 @@ const ContactUs = () => {
       }, []);
   return (
     <>
-    {/* CONTACT */}
-
-    <section id="contact" style={{background: `url(${contactbg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right', backgroundSize: 'contain',}}>
-    <div className="container">
-        <h5 className="section-subheading text-center" data-aos="zoom-in-up">
+    <section id="contact" className='section-contact' style={{background: `url(${contactbg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right', backgroundSize: 'contain',}}>
+    <div className="container-contact">
+        <h5 className="section-subheading-contact text-center-contact" data-aos="zoom-in-up" >
             contact us
         </h5>
-        <h2 className="section-heading text-center left right" data-aos="zoom-in-up">
+        <h2 className="section-heading-contact text-center-contact left right" data-aos="zoom-in-up">
             Stay connected with us for any reason
         </h2>
         <div className="contact">
@@ -49,37 +47,37 @@ const ContactUs = () => {
                 <input type="text" placeholder="your name" required />
                 <input type="email" placeholder="your email" required />
                 <input type="text" placeholder="subject" required />
-                <textarea rows="5" required> your message</textarea>
-                <button className="btn btn-primary">Send Message</button>
+                <textarea rows="5" required defaultValue="your message"></textarea>
+                <button className="button-contact btn btn-primary">Send Message</button>
             </form>
             <div className="contact_details" data-aos="zoom-in-left">
                 <p className="text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <div className="details">
-                    <div className="detail">
-                        <div className="detail_icon">
+                <div className="details-contact">
+                    <div className="detail-contact">
+                        <div className="detail_icon-contact">
                             <FaPhoneAlt />
                         </div>
-                        <div className="detail_content">
+                        <div className="detail_content-contact">
                             <h3>Phone</h3>
                             <p>+123456789</p>
                         </div>
                     </div>
-                    <div className="detail">
-                        <div className="detail_icon">
+                    <div className="detail-contact">
+                        <div className="detail_icon-contact">
                             <FaEnvelope />
                         </div>
-                        <div className="detail_content">
+                        <div className="detail_content-contact">
                             <h3>Email</h3>
                             <p>abc@gmail.com</p>
                         </div>
                     </div>
-                    <div className="detail">
-                        <div className="detail_icon">
+                    <div className="detail-contact">
+                        <div className="detail_icon-contact">
                             <FaMapMarkedAlt />
                         </div>
-                        <div className="detail_content">
+                        <div className="detail_content-contact">
                             <h3>Address</h3>
                             <p>123, lorem ipsum dolor sit amet</p>
                         </div>
@@ -89,8 +87,6 @@ const ContactUs = () => {
         </div>
     </div>
     </section>
-
-    {/* CONTACT */}
     </>
   )
 }

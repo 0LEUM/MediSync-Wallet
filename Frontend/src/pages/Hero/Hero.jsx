@@ -30,7 +30,7 @@ const Hero = () => {
       
   return (
     <>
-    <section id="hero" className="container-hero flex-row-hero">
+    <section id="hero" className="section-hero container-hero flex-row-hero" >
         <div className="hero_content" data-aos="fade-right" data-aos-offset="500" data-aos-duration="600">
           <h1 className="title">Welcome to Our Company!</h1>
           <p className="text">

@@ -1,16 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body,
-input {
-  font-family: "Poppins", sans-serif;
-}
-
 .container-otp {
   margin-top: 50px;
   position: relative;
@@ -26,6 +13,7 @@ input {
   justify-content: center;
   margin: 20px;
 }
+
 .row-otp input {
   height: 40px;
   width: 40px;
@@ -36,21 +24,13 @@ input {
   outline: none;
   border: 1px solid #a3a3a3;
 }
+
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0px;
 }
-button-login {
-  width: 50%;
-  height: 45px;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 10px;
-  border: none;
-  margin-bottom: 20px;
-  color: #fff;
-}
+
 button:hover {
   background: #3998d8;
 }
@@ -78,7 +58,7 @@ button:hover {
   z-index: 5;
 }
 
-form {
+.form-login {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -35,10 +35,10 @@ const Projects = () => {
     <>
     {/* PROJECTS */}
 
-    <section id="projects" style={{background: `url(${projects})`, backgroundRepeat: 'no-repeat' , backgroundPosition: 'center', backgroundSize: '100% 100%', backgroundAttachment: 'fixed'}}>
-      <div className="container">
-        <h5 className="section-subheading" data-aos="zoom-in-up">our projects</h5>
-        <h2 className="section-heading" data-aos="zoom-in-up">
+    <section id="projects" className='section-projects' style={{background: `url(${projects})`, backgroundRepeat: 'no-repeat' , backgroundPosition: 'center', backgroundSize: '100% 100%', backgroundAttachment: 'fixed'}} >
+      <div className="container-projects">
+        <h5 className="section-subheading-projects" data-aos="zoom-in-up">our projects</h5>
+        <h2 className="section-heading-projects" data-aos="zoom-in-up">
           check the real innovation od problem solving
         </h2>
         <div className="projects">
@@ -57,7 +57,7 @@ const Projects = () => {
                 doloribus nam odit amet asperiores odio reiciendis aut facere
                 corrupti quod.
               </p>
-              <a href="#" className="btn btn-secondary">View details</a>
+              <a href="#" className="button-projects btn btn-secondary">View details</a>
             </div>
           </div>
 
@@ -76,7 +76,7 @@ const Projects = () => {
                 doloribus nam odit amet asperiores odio reiciendis aut facere
                 corrupti quod.
               </p>
-              <a href="#" className="btn btn-secondary">View details</a>
+              <a href="#" className="button-projects btn btn-secondary">View details</a>
             </div>
           </div>
 
@@ -95,7 +95,7 @@ const Projects = () => {
                 doloribus nam odit amet asperiores odio reiciendis aut facere
                 corrupti quod.
               </p>
-              <a href="#" className="btn btn-secondary">View details</a>
+              <a href="" className="button-projects btn btn-secondary">View details</a>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* RESET DEFAULT STYLES */
@@ -43,84 +44,12 @@ h6 {
   margin-bottom: 1rem;
 }
 
-/* UTILITY CLASSES */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-primary {
-  color: var(--primary-color);
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.section-subheading {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-.section-heading {
-  font-size: 3rem;
-  max-width: 600px;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 2rem;
-}
-
-.section-heading.left {
-  margin-right: auto;
-}
-
-.section-heading.right {
-  margin-left: auto;
-}
-
-/* GLOBAL STYLES */
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
 body {
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden;
   color: var(--secondary-color);
-}
-
-section {
-  position: relative;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
 }
 
 @media screen and (max-width: 768px) {

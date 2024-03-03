@@ -37,11 +37,11 @@ const Services = () => {
   }, []);
   return (
     <>
-    <section id="services" style={{background: 'url(assets/img/services-bg.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', backgroundSize: '100% 80%',}}>
+    <section id="services" className='section-services' style={{background: 'url(assets/img/services-bg.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'top', backgroundSize: '100% 80%',}}>
       <div className="container-services">
-        <h5 className="section-subheading" data-aos="zoom-in-up">What we do</h5>
-        <h2 className="section-heading right" data-aos="zoom-in-up">
-          Services to solve all kind of business problems
+        <h5 className="section-subheading-services" data-aos="zoom-in-up">What we do</h5>
+        <h2 className="section-heading-services right" data-aos="zoom-in-up">
+          Services to solve all kind <br /> of business problems
         </h2>
         <div className="services">
           <div className="service" data-aos="fade-up">

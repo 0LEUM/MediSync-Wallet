@@ -1,3 +1,8 @@
+.section-hero{
+  position: relative;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
 
 #hero {
   min-height: 100vh;
@@ -39,26 +44,25 @@
   width: 60%;
 }
 
-/* .btn {
+.button-hero {
   display: inline-block;
   max-width: max-content;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   font-size: 0.8rem;
   font-weight: 500;
-  border: none;
   cursor: pointer;
   outline: none;
+  border: none;
   transition: all 0.3s;
-} */
-  
-.button-hero .btn-primary {
-  background-color: #c04ae2;
   color: #fff;
-}
-  
-.button-hero .btn-primary:hover {
   background-color: #a03dd1;
+}
+
+.button-hero:hover{
+  background-color: #fff;
+  border: 1px solid #a03dd1;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {

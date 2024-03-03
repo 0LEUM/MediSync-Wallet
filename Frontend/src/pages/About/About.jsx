@@ -31,7 +31,7 @@ const About = () => {
   }, []);
   return (
     <>
-    <section id="about" className="container-about flex-center-about flex-column-about">
+    <section id="about" className="section-about container-about flex-center-about flex-column-about" >
       <h5 className="section-subheading-about" data-aos="zoom-in-up">
         build trust first
       </h5>

@@ -34,13 +34,13 @@ const Testimonial = () => {
     <>
     {/* TESTIMONIALS */}
 
-    <section id="testimonial" style={{background:  `url(${testbg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right', backgroundSize: '100%'}} data-aos="zoom-out-up">
-      <div className="container flex-row">
+    <section id="testimonial" className='section-testimonial' style={{background:  `url(${testbg})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right', backgroundSize: '100%'}} data-aos="zoom-out-up">
+      <div className="container-testimonial flex-row-testimonial">
         <div className="testimonials-wrapper">
-          <p className="quotes">
+          <p className="quotes-testimonial">
             <FaQuoteLeft />
           </p>
-          <p className="section-subheading">testimonial;</p>
+          <p className="section-subheading-testimonial">TESTIMONIAL</p>
           <div className="testimonials">
             <div className="testimonial">
               <h1 className="testimonial_title">They are awesome</h1>

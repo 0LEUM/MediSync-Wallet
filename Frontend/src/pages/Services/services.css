@@ -1,6 +1,27 @@
-#services .section-subheading,
-#services .section-heading {
+.section-services{
+  position: relative;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+#services .section-subheading-services,
+#services .section-heading-services {
   text-align: right;
+}
+
+.section-subheading-services {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.section-heading-services {
+  font-size: 3rem;
+  max-width: 600px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
 .container-services {

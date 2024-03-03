@@ -1,3 +1,9 @@
+.section-about{
+  position: relative;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
 .container-about {
   width: 100%;
   max-width: 1200px;
@@ -102,26 +108,25 @@
   width: 50%;
 }
 
-  /* .btn {
-    display: inline-block;
-    max-width: max-content;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    font-size: 0.8rem;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s;
-  } */
-  
-.button-about .btn-primary {
-  background-color: #c04ae2;
+.button-about {
+  display: inline-block;
+  max-width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
   color: #fff;
-}
-  
-.button-about .btn-primary:hover {
   background-color: #a03dd1;
+}
+
+.button-about:hover{
+  background-color: #fff;
+  border: 1px solid #a03dd1;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {

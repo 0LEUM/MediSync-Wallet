@@ -51,6 +51,8 @@ header .right-header {
 }
 
 .button-header {
+  font-size: 0.8rem;
+  font-weight: 500;
   border: 1px solid #c04ae2;
   background-color: #fff;
   color: black;
