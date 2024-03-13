@@ -35,6 +35,8 @@ linkedin
 
 About ->
 
+section-about
+section-about
 container-about
 flex-center-about
 flex-column-about
@@ -54,12 +56,13 @@ about_details-content
 about_details-content >> h1
 about_details-content >> p
 about_details-content >> btn
-button-about >> btn-primary 
-button-about >> btn-primary:hover
+button-about 
+button-about >> hover
 about_details-img
 
 Hero ->
 
+section-hero
 #hero
 container-hero
 flex-row-hero
@@ -67,13 +70,14 @@ hero_content
 hero_content >> h1
 hero_content >> p
 hero_img
-button-hero >> btn-primary
-button-hero >> btn-primary:hover
+button-hero
+.button-hero >> hover
 
 Services ->
 
-#services >> section-subheading
-#services >> section-heading 
+section-services
+#services >> section-subheading-services
+#services >> section-heading-services
 container-services
 services 
 service
@@ -83,3 +87,82 @@ service_text
 service >> services-arrow-icon
 service:hover
 services-arrow-icon
+
+Projects ->
+
+section-projects
+container-projects
+section-subheading-projects
+section-heading-projects
+projects
+project
+project:nth-child(2) 
+project_img 
+project_img >> after  
+project >> nth-child(1) project_img >> after,
+project >> nth-child(3) project_img >> after  
+project >> nth-child(2) project_img >> after 
+project >> nth-child(3) project_img >> after 
+project_content
+project_category
+project_title
+project_text  
+button-projects  
+button-projects >> hover
+
+Team ->
+
+section-team
+container-team
+text-center-team
+section-heading-team.left
+section-heading-team.right 
+members 
+member >> nth-child(2)
+member >> nth-child(4) 
+member_img 
+member_content >> h1
+member_content >> p
+
+Testimonial ->
+
+section-testimonial
+#testimonials 
+#testimonials >> section-subheading-testimonial
+container-testimonial
+flex-row-testimonial
+testimonials-wrapper
+quotes-testimonial
+testimonial_title
+testimonial_text
+testimonials_img >> img
+testimonial_author 
+testimonial_author >> h3
+testimonial_author >> p
+testimonial_author::before  
+testimonial-navigation
+testimonial-navigation >> span
+testimonial-navigation >> span.active
+
+ContactUs ->
+
+container-contact
+text-center-contact
+section-heading-contact.left
+section-heading-contact.right
+contact
+contact_form
+contact_form input,
+contact_form textarea
+contact_form textarea
+contact_details
+contact_details >> text
+contact_details >> details-contact
+contact_details >> detail-contact
+detail_icon-contact
+detail-contact:nth-child(2)  >> detail_icon-contact
+detail-contact:nth-child(3)  >> detail_icon-contact
+detail_content-contact >> h3
+detail_content-contact >> p
+button-contact
+button-contact >> hover
