@@ -42,7 +42,7 @@ Medi Sync Wallet streamlines healthcare processes by digitizing and maintaining 
 #
 # **Hall of Fame** ✨
 
-<!-- We love our contributors! If you'd like to contribute anything from a bug-fix to a feature update, you can read our [CONTRIBUTING GUIDE](https://github.com/0LEUM/Medicine-Wallet/blob/main/CONTRIBUTING.md) -->
+We love our contributors! If you'd like to contribute anything from a bug-fix to a feature update, you can read our [CONTRIBUTING GUIDE](https://github.com/0LEUM/Medicine-Wallet/blob/main/CONTRIBUTING.md)
 
 [![Contributors](https://contrib.rocks/image?repo=0LEUM/Medicine-Wallet)](https://github.com/0LEUM/Medicine-Wallet/graphs/contributors)
 
