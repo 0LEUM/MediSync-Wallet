@@ -48,4 +48,4 @@ We love our contributors! If you'd like to contribute anything from a bug-fix to
 
 [![Contributors](https://contrib.rocks/image?repo=0LEUM/Medicine-Wallet)](https://github.com/0LEUM/Medicine-Wallet/graphs/contributors)
 
-<p align="center">&mdash; 🔑  &mdash;</p>
+<p align="center">&mdash; 🩺  &mdash;</p>
