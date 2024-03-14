@@ -125,6 +125,6 @@ Now, sit back and relax till we review your PR, you've made your contribution to
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under [MIT License](LICENSE).
+By contributing, you agree that your contributions will be licensed under [MIT License](https://github.com/0LEUM/Medicine-Wallet/blob/main/LICENSE).
 
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
