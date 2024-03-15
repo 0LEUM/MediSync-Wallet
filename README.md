@@ -38,6 +38,11 @@ Medi Sync Wallet streamlines healthcare processes by digitizing and maintaining 
 * Doctor: Healthcare professionals managing patient checkups and complaints.
 * Medical Assistant: Handles prescriptions, issues digital prescriptions, and adds new users.
 * Pharmacist: Dispenses medicines, generates bills, and manages transactions.
+#
+# **Workflow**
+> It is a basic workflow diagram made for our project...
+
+<img width="100%" src="./Frontend/src/assets/flow-diagram.png" alt="flow-diagram" />
 
 #
 # 💭**Inspiration**
