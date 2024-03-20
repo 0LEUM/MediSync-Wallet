@@ -44,7 +44,9 @@ Medi Sync Wallet streamlines healthcare processes by digitizing and maintaining 
 
 <img width="100%" src="./Frontend/src/assets/flow-diagram.png" alt="flow-diagram" />
 
-![Animated Flow Chart]()
+<video width="100%">
+  <source src="./Frontend/src/assets/Flowchart.gif" type="video/gif">
+</video>
 
 #
 # 💭**Inspiration**
