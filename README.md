@@ -14,12 +14,12 @@
     <em>This project aims to efficiently manage and monitor patient health records, fostering improved doctor-patient and pharmacist-patient relationships. It serves the dual purpose of enhancing communication and thwarting fraudulent practices by verifying the credentials of healthcare professionals, thus ensuring a safer and more transparent healthcare ecosystem.</em>
 </p>
 
+<p align="center">
+    <em>Looking for our hosted site <a href="https://medisyncwallet.netlify.app/">Try This →</a></em>
+</p>
+
+
 ---
-
-<!-- <p align="center">
-    <em>Looking for our hosted site <a href="">Try This →</a></em>
-</p> -->
-
 
 # **Introduction**
 
