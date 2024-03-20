@@ -42,11 +42,9 @@ Medi Sync Wallet streamlines healthcare processes by digitizing and maintaining 
 # **Workflow**
 > It is a basic workflow diagram made for our project...
 
-<img width="100%" src="./Frontend/src/assets/flow-diagram.png" alt="flow-diagram" />
+<!-- <img width="100%" src="./Frontend/src/assets/flow-diagram.png" alt="flow-diagram" /> -->
 
-<video width="100%">
-  <source src="./Frontend/src/assets/Flowchart.gif" type="video/gif">
-</video>
+![Flowchart](./Frontend/src/assets/Flowchart.gif)
 
 #
 # 💭**Inspiration**
