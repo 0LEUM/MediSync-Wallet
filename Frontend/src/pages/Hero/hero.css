@@ -22,10 +22,11 @@
 }
 
 .hero_content {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-right: 15px;
 }
 
 .hero_content h1 {
@@ -41,7 +42,12 @@
 }
 
 .hero_img {
-  width: 60%;
+  width: 50%;
+}
+
+.heropng{
+  margin-left: 70px;
+  height: 500px;
 }
 
 .button-hero {
@@ -76,6 +82,7 @@
   .hero_content {
     width: 100%;
     text-align: center;
+    margin-right: 0px;
   }
 
   .hero_content h1 {
@@ -88,5 +95,10 @@
 
   .hero_img {
     width: 100%;
+  }
+
+  .heropng{
+    margin-left: 0px;
+    height: 250px;
   }
 }

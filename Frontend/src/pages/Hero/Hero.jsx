@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './hero.css'
-import hero from '../../assets/hero.png'
+import hero from '../../assets/hero1.png'
 
 const Hero = () => {
 
@@ -41,7 +41,7 @@ const Hero = () => {
           <a href="" className="button-hero btn btn-primary">Get Started</a>
         </div>
         <div className="hero_img" data-aos="fade-left" data-aos-offset="500" data-aos-duration="600">
-          <img src={hero} alt="" />
+          <img src={hero} className="heropng" alt="" />
         </div>
       </section>
     </>
