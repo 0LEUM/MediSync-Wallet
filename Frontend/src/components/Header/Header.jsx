@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import './header.css';
-import { FaBars } from 'react-icons/fa';
-import logo from '../../assets/logo.png';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import "./header.css";
+import { FaBars } from "react-icons/fa";
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   // const [showMenu, setShowMenu] = useState(false);
@@ -20,7 +20,6 @@ const Header = () => {
           </div>
           {/* <nav className={`header_menu ${showMenu ? 'show' : ''}`}> */}
           <nav className="header_menu">
-
             <ul className="flex-column">
               <li>
                 <a href="#hero">Home</a>
@@ -52,7 +51,6 @@ const Header = () => {
             <div className="menu-btn">
               {/* <a href="#" className="icon" onClick={toggleMenu}> */}
               <a href="#" className="icon">
-
                 <FaBars />
               </a>
             </div>
