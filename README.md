@@ -1,4 +1,4 @@
-<img width="100%" src="imagess/Banner.png" alt="pro-banner" />
+<img width="100%" src="images/Banner.png" alt="pro-banner" />
 
 <!-- <p align="center">
     <img height="50px" src="./docs/img/nextdotjs.svg" alt="Next Js">
