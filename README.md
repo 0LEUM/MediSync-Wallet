@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-    <em>Looking for our hosted site <a href="https://medisyncwallet.netlify.app/">Try This →</a></em>
+    <em>Looking for our hosted site <a href="https://medicinewallet.000webhostapp.com/">Try This →</a></em>
 </p>
 
 
@@ -44,7 +44,7 @@ Medi Sync Wallet streamlines healthcare processes by digitizing and maintaining 
 
 <!-- <img width="100%" src="./Frontend/src/assets/flow-diagram.png" alt="flow-diagram" /> -->
 
-![Flowchart](./Frontend/src/assets/Flowchart.gif)
+![Flowchart](images/Flowchart.gif)
 
 #
 # 💭**Inspiration**
